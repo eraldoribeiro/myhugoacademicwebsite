@@ -2,3 +2,7 @@
 	path = public--force
 	url = https://github.com/eraldoribeiro/eraldoribeiro.github.io.git
 	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/eraldoribeiro/eraldoribeiro.github.io.git
+	branch = master
