@@ -32,7 +32,9 @@ echo 'public/' >> .gitignore
 
 
 
-**Make changes to the website**. Update the website files (e.g., configuration, contents). Then, test the changes by running the website locally: 
+**Make changes to the website**. Update the website files (e.g., configuration, contents). 
+
+**Test the website on a local server.** Then, test the changes by running the website locally: 
 
 ```shell
 hugo server -w 
@@ -41,14 +43,16 @@ open http://localhost:1313/
 
 If everything looks fine, kill the server by pressing Ctrl+C. 
 
-Then, re-create the static-website files by running hugo again. This time, tell hugo to store the website files into the local directory where the GitHub-page is stored, i.e., 
+**Re-create the static files of the website**. Re-create the static-website files by running hugo again. This time, tell hugo to store the website files into the local directory where the GitHub-page is stored, i.e., 
 
 ```shell
 echo "Generating static website files ..."
 hugo -d ~/Documents/website/eraldoribeiro.github.io/
 ```
 
-Push all changes into the master repository for your GitHub-page: 
+
+
+**Update the GitHub page**. Push all changes into the master repository for your GitHub-page: 
 
 ```shell
 echo "Pushing to publish"
@@ -59,7 +63,9 @@ git commit -am "More changes"
 git push origin master
 ```
 
-Finally, don't forget to also push the changes into the master repository of the website-project on GitHub:
+
+
+**Update the project files**. Finally, don't forget to also push the changes into the master repository of the website-project on GitHub:
 
 ```shell
 cd ~/Documents/website/myhugoacademicwebsite/
