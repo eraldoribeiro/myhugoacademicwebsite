@@ -86,11 +86,17 @@ git push origin master
 
 
 
+### Part 3
+
+
+
 **A shell script** `deploy.sh`
 
 Automate the "deploying" process using a shell script. 
 
 ```shell
+#!/bin/sh
+
 echo "Generating static website files ..."
 cd ~/Documents/website/myhugoacademicwebsite
 hugo -d ~/Documents/website/eraldoribeiro.github.io/
