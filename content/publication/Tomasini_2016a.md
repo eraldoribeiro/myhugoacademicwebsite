@@ -7,7 +7,7 @@ publication = "_Proc. International Conference on Acoustics, Speech, and Signal 
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["acoustic_classification"]
 math = true
 highlight = true
 [header]

@@ -7,7 +7,7 @@ publication = "_Proceedings of the International Florida Artificial Intelligence
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["pollen"]
 math = true
 highlight = true
 [header]

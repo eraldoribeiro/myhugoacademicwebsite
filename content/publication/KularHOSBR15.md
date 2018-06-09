@@ -7,7 +7,7 @@ publication = "_Advances in Visual Computing - 11th International Symposium, ISV
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["acoustic_classification"]
 math = true
 highlight = true
 [header]
