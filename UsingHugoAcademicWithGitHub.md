@@ -1,5 +1,9 @@
 
 
+### Part 1
+
+
+
 **Create a directory to store the website files**. This is where I keep the repositories related to my website(s). 
 
 ```shell
@@ -29,6 +33,10 @@ git pull origin master
 ```shell
 echo 'public/' >> .gitignore
 ```
+
+
+
+### Part 2
 
 
 
@@ -68,6 +76,7 @@ git push origin master
 **Update the project files**. Finally, don't forget to also push the changes into the master repository of the website-project on GitHub:
 
 ```shell
+echo "Updating the project files"
 cd ~/Documents/website/myhugoacademicwebsite/
 git add --all
 git status
@@ -76,4 +85,28 @@ git push origin master
 ```
 
 
+
+**A shell script** `deploy.sh`
+
+Automate the "deploying" process using a shell script. 
+
+```shell
+echo "Generating static website files ..."
+cd ~/Documents/website/myhugoacademicwebsite
+hugo -d ~/Documents/website/eraldoribeiro.github.io/
+
+echo "Pushing to publish"
+cd ~/Documents/website/eraldoribeiro.github.io/
+git add --all
+git status
+git commit -am "More changes"
+git push origin master
+
+echo "Updating the project files"
+cd ~/Documents/website/myhugoacademicwebsite/
+git add --all
+git status
+git commit -am "More changes"
+git push origin master
+```
 
