@@ -1,6 +1,6 @@
 
 
-### Part 1
+### Part 1: Cloning the website repositories
 
 
 
@@ -36,7 +36,7 @@ echo 'public/' >> .gitignore
 
 
 
-### Part 2
+### Part 2: Updating and deploying
 
 
 
@@ -86,7 +86,7 @@ git push origin master
 
 
 
-### Part 3
+### Part 3: Deploying using a shell script
 
 
 
@@ -115,4 +115,17 @@ git status
 git commit -am "More changes"
 git push origin master
 ```
+
+
+
+### Part 4: Generating publication files using python 
+
+The Hugo academic theme needs each publication to be in its own markdown file. This markdown file has a specific format which can be created manually or generated automatically using `parse_bib.py`, a python script created by [Petros Aristidou's python script](https://github.com/apetros/parse_bib). To create all files from a bibtex library and place them in the correct location in the Hugo's content directory, run the following:  
+
+```shell
+cd ~/Documents/website/myhugoacademicwebsite/
+python3 parse_bib.py -i myrefs.bib 
+```
+
+To make the script work, I used `python3` and installed the [bibtextparser](https://github.com/sciunto-org/python-bibtexparser) library. To add a new publication, I just need to add a new record to`myrefs.bib` and run `parse_bib.py` on it. Then, I call call `deploy.sh` to update the website. 
 
