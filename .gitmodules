@@ -1,0 +1,4 @@
+[submodule "public--force"]
+	path = public--force
+	url = https://github.com/eraldoribeiro/eraldoribeiro.github.io.git
+	branch = master
