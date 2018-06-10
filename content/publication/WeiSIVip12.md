@@ -7,7 +7,7 @@ publication = "_Signal, Image and Video Processing_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["image_registration"]
 math = true
 highlight = true
 [header]

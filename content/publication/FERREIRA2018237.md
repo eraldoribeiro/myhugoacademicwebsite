@@ -29,7 +29,8 @@ selected = false
 
 
 image_preview = ""
-projects = []
+projects = ["image_registration"]
+
 math = true
 highlight = true
 [header]

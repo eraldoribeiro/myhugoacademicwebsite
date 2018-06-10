@@ -7,7 +7,7 @@ publication = "_20th International Conference on Pattern Recognition_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["image_registration"]
 math = true
 highlight = true
 [header]

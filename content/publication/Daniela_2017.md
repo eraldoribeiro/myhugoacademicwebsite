@@ -7,7 +7,7 @@ publication = "_Proc. ACM SIGAPP Symposium On Applied Computing (SAC)_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["image_registration"]
 math = true
 highlight = true
 [header]
