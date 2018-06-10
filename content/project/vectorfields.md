@@ -1,5 +1,5 @@
 +++
-title = "Vectorfields"
+title = "Vector Fields"
 date = 2018-06-10T19:26:54-04:00
 draft = false
 
