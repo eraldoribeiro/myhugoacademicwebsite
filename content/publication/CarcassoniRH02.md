@@ -7,7 +7,7 @@ publication = "_IEEE International Conference on Image Processing - ICIP (3)_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]

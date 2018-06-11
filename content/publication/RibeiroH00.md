@@ -7,7 +7,7 @@ publication = "_British Machine Vision Conference, Bristol, UK_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]

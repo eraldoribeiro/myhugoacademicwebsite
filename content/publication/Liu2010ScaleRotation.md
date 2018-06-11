@@ -27,7 +27,7 @@ url_poster = ""
 url_source = ""
 
 selected = false
-projects = []
+projects = ["vectorfields"]
 math = true
 highlight = true
 [header]

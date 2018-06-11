@@ -7,7 +7,7 @@ publication = "_2nd Workshop on Complex Networks, Rio de Janeiro, Brazil_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["datascience"]
 math = true
 highlight = true
 [header]

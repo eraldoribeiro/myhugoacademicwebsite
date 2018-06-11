@@ -7,7 +7,7 @@ publication = "_IEEE International Conference on Pattern Recognition - ICPR  (2)
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]

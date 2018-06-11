@@ -7,7 +7,7 @@ publication = "_Image Analysis and Recognition_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["vectorfields"]
 math = true
 highlight = true
 [header]

@@ -7,7 +7,7 @@ publication = "_2016 IEEE International Conference on Image Processing (ICIP)_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["tracking"]
 math = true
 highlight = true
 [header]

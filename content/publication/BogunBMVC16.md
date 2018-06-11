@@ -7,7 +7,7 @@ publication = "_British Machine Vision Conference (BMVC)_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["tracking"]
 math = true
 highlight = true
 [header]

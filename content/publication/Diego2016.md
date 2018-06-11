@@ -7,7 +7,7 @@ publication = "_IEEE/WIC/ACM International Conference on Web Intelligence_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["datascience"]
 math = true
 highlight = true
 [header]
