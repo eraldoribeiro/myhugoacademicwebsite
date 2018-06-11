@@ -7,7 +7,7 @@ publication = "_International Conference on Computer Analysis of Images and Patt
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]

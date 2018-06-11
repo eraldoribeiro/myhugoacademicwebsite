@@ -7,7 +7,7 @@ publication = "_Pattern Recogniton_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]

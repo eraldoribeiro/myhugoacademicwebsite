@@ -6,8 +6,11 @@ publication_types = ["1"]
 publication = "_Second International Conference on Advances in Pattern Recognition - ICAPR2001_"
 publication_short = ""
 image_preview = ""
+
+
+
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]

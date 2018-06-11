@@ -7,7 +7,7 @@ publication = "_European Conference on Computer Vision_"
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]

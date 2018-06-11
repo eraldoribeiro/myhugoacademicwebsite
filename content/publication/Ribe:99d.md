@@ -7,7 +7,7 @@ publication = "_Brazilian Symposium on Computer Graphics, Image Processing and V
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]

@@ -7,7 +7,7 @@ publication = "_International Workshop on Structural and Syntactic Pattern Recog
 publication_short = ""
 image_preview = ""
 selected = false
-projects = []
+projects = ["textures"]
 math = true
 highlight = true
 [header]
