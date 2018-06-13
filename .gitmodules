@@ -1,0 +1,4 @@
+[submodule "mypapers"]
+	path = mypapers
+	url = https://github.com/eraldoribeiro/mypapers.git
+	branch = master
