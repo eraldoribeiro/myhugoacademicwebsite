@@ -127,7 +127,7 @@ cd ~/Documents/website/myhugoacademicwebsite/
 python3 parse_bib.py -i myrefs.bib 
 ```
 
-To make the script work, I used `python3` and installed the [bibtextparser](https://github.com/sciunto-org/python-bibtexparser) library. To add a new publication, I just need to add a new record to`myrefs.bib` and run `parse_bib.py` on it. Then, I call call `deploy.sh` to update the website. 
+To run the script, I used `python3` and installed the [bibtextparser](https://github.com/sciunto-org/python-bibtexparser) library. To add a new publication, I just need to add a new record to`myrefs.bib` and run `parse_bib.py` on it. Then, I call call `deploy.sh` to update the website. 
 
 
 
