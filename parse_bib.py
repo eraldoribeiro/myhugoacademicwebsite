@@ -50,7 +50,7 @@ def month_string_to_number(string):
 def get_author_link(string):
     web = {
         'P. Aristidou':'https://www.paristidou.info',
-        'Co-author 2': 'http://www.amazing-site.com'
+        'R. Menezes': 'https://cs.fit.edu/~rmenezes'
         }
     out = ''
     try:
