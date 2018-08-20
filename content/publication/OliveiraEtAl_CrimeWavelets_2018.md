@@ -1,6 +1,6 @@
 +++
 title = "Spatio-temporal variations in the urban rhythm: the travelling waves of crime"
-date = "2012-01-01"
+date = "2018-08-01"
 authors = ["Marcos Oliveira", "Eraldo Ribeiro", "Carmelo Bastos-Filho", "Ronaldo Menezes"]
 publication_types = ["2"]
 publication = "_EPJ Data Science_"
