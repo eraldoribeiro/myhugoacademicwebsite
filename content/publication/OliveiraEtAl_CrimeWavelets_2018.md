@@ -8,7 +8,7 @@ publication_short = ""
 image_preview = ""
 
 # Links (optional).
-url_pdf = ""
+url_pdf = "https://rdcu.be/7Mqf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
