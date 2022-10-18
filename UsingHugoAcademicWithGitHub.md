@@ -4,23 +4,21 @@
 
 
 
-**Create a directory to store the website files**. This is where I keep the repositories related to my website(s). 
+**Create a directory to store the website files**. This is where I keep the repositories related to my website(s). If this directory already exists, then it does not need to be created. 
 
 ```shell
-mkdir ~/Documents/website 
+mkdir ~/Documents/work/website 
 ```
-
-
 
 **Clone the website repositories into this directory**. I use two repositories. One repository contains the website-project files, and the other is my actual github-page repository. 
 
 ```shell
-cd ~/Documents/website 
+cd ~/Documents/work/website 
 git clone https://github.com/eraldoribeiro/eraldoribeiro.github.io.git
 cd eraldoribeiro.github.io/
 git pull origin master
 
-cd ~/Documents/website 
+cd ~/Documents/work/website 
 git clone https://github.com/eraldoribeiro/myhugoacademicwebsite.git
 cd myhugoacademicwebsite
 git pull origin master
@@ -45,6 +43,7 @@ echo 'public/' >> .gitignore
 **Test the website on a local server.** Then, test the changes by running the website locally: 
 
 ```shell
+cd myhugoacademicwebsite
 hugo server -w 
 open http://localhost:1313/    
 ```
@@ -55,7 +54,7 @@ If everything looks fine, kill the server by pressing Ctrl+C.
 
 ```shell
 echo "Generating static website files ..."
-hugo -d ~/Documents/website/eraldoribeiro.github.io/
+hugo -d ~/Documents/work/website/eraldoribeiro.github.io/
 ```
 
 
@@ -64,7 +63,7 @@ hugo -d ~/Documents/website/eraldoribeiro.github.io/
 
 ```shell
 echo "Pushing to publish"
-cd ~/Documents/website/eraldoribeiro.github.io/
+cd ~/Documents/work/website/eraldoribeiro.github.io/
 git add --all
 git status
 git commit -am "More changes"
