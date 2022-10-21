@@ -76,7 +76,7 @@ git push origin master
 
 ```shell
 echo "Updating the project files"
-cd ~/Documents/website/myhugoacademicwebsite/
+cd ~/Documents/work/website/myhugoacademicwebsite/
 git add --all
 git status
 git commit -am "More changes"
@@ -113,6 +113,7 @@ git add --all
 git status
 git commit -am "More changes"
 git push origin master
+
 ```
 
 
@@ -122,7 +123,7 @@ git push origin master
 The Hugo academic theme needs each publication to be in its own markdown file. This markdown file has a specific format which can be created manually or generated automatically using `parse_bib.py`, a python script created by [Petros Aristidou's python script](https://github.com/apetros/parse_bib). To create all files from a bibtex library and place them in the correct location in the Hugo's content directory, run the following:  
 
 ```shell
-cd ~/Documents/website/myhugoacademicwebsite/
+cd ~/Documents/work/website/myhugoacademicwebsite/
 python3 parse_bib.py -i myrefs.bib 
 ```
 
